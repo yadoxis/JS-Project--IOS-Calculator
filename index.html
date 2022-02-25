@@ -5,33 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Güllüoğlu Mercan</title>
+    <title>Calculator</title>
 </head>
 <body>
-    <div class="main">
-        <div class="wrapper">
-            <div class="header">
-                <nav>
-                    
-                    <ul>
-                        <li><a href="">ANA SAYFA</a></li>
-                        <li><a href="">MENÜ</a></li>
-                        <li><a href="">İLETİŞİM</a></li>
-                        <li><a href="">ADRES</a></li>
-                        <li><a href="">DİL</a></li>
-                    </ul>
-                </nav>
-                <div class="overlay">
-                    <div class="logo">
-                        <img src="./image/gulluoglu_logo.jpg" alt="logo">
-                    </div>
-                    <div class="content">
-                        <h1>Güllüoğlu-Mercan <br> Hoşgeldiniz</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, amet earum odit accusantium optio ipsam explicabo, voluptas autem dolor, tempora quaerat quae quisquam minus. Ab eum rerum sint exercitationem laborum!</p>
-                    </div>
-                </div>
+    <div class="main-box">
+        <div class="icon-box">
+            <div class="clock">
+                <span class="hour"></span>:<span class="minute"></span>
+            </div>
+            <div class="status">
+                <img src="./img/status.png" alt="status">
             </div>
         </div>
+        <div class="screen-box">
+          <div class="screen1"></div>
+          <div class="screen2">0</div>  
+        </div>
+        <div class="calculator-box">
+            <div class="button function function-AC">AC</div>
+            <div class="button function negative-positive">±</div>
+            <div class="button function percentage">%</div>
+            <div class="button operator divide">÷</div>
+            <div class="button operator multiply">x</div>
+            <div class="button operator subtract">-</div>
+            <div class="button operator plus">+</div>
+            <div class="button operator equal">=</div>
+            <div class="button number number-1">1</div>
+            <div class="button number number-2">2</div>
+            <div class="button number number-3">3</div>
+            <div class="button number number-4">4</div>
+            <div class="button number number-5">5</div>
+            <div class="button number number-6">6</div>
+            <div class="button number number-7">7</div>
+            <div class="button number number-8">8</div>
+            <div class="button number number-9">9</div>
+            <div class="button number number-0">0</div>
+            <div class="button number number-dot">.</div>
+        </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
